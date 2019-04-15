@@ -1,0 +1,7 @@
+h1
+  font-size 20px
+  font-waight bold
+  
+section
+  width 1200px
+  margin 20px auto

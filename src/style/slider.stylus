@@ -1,0 +1,60 @@
+p
+  font-size 14px
+  
+.sliderBox
+  position relative
+  width 100%
+  height 300px
+  border solid 1px #ff0000
+  box-sizing border-box 
+  
+.slide
+  transition .25s
+  display none
+  width auto
+
+.slideItem
+  position absolute
+  display block
+  animation-name slide
+  animation-duration 10s
+  animation-timing-function linear
+
+.slideStandby
+  position absolute
+  display block
+  animation-name standby
+  animation-duration 10s
+  animation-timing-function linear 
+  opacity  1
+
+.slideHide
+  opacity  0
+  display none
+
+@keyframes slide
+  0%
+    left 0
+    opacity 1
+  60%
+    opacity 1
+  90%
+    opacity 0
+  to
+    opacity 0
+    left 600px
+  
+@keyframes standby
+  0%
+    left -600px
+    opacity 0
+  40%
+    opacity 1
+  90%
+
+    opacity 1
+  to
+    opacity 1
+    left 0
+  
+

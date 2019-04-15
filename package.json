@@ -1,0 +1,27 @@
+{
+  "name": "component-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "parcel ./src/index.pug --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryu-g/component-test.git"
+  },
+  "author": "ryu-g",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ryu-g/component-test/issues"
+  },
+  "homepage": "https://github.com/ryu-g/component-test#readme",
+  "dependencies": {
+    "pug": "^2.0.3",
+    "sass": "^1.18.0"
+  },
+  "devDependencies": {
+    "stylus": "^0.54.5"
+  }
+}
